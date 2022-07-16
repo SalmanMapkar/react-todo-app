@@ -1,7 +1,8 @@
 import "./Card.css";
+import React from "react";
+
 function Card(props) {
   const classes = "card " + props.className;
-  console.log(props);
   return <div className={classes}>{props.children}</div>;
 }
 
